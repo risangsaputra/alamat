@@ -15,7 +15,7 @@ else{
 		or die("Gagal perintah menghapus".mysqli_error());
 		echo "<script>
 		swal({ 
-	  title: 'Good job!', text: 'Sukses Menghapus data', type:'success', timer: 1000,   showConfirmButton: false
+	  title: 'Deleted!', text: 'Your file has been deleted.', type:'success', timer: 1000,   showConfirmButton: false
 	  },
 	  function(){
 	    window.location.href = 'index.php?act=data_user';

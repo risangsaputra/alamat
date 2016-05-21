@@ -27,7 +27,7 @@
                         $keterangan  =$data['keterangan'];
                         ?>    
             
-              // L.marker([<?php echo "$lat"; ?>, <?php echo "$lng"; ?>]).bindPopup('<?php echo "$ip"; ?>').addTo(map);
+              
           <?php
 
             $str = exec("ping -n 1 -w 1 $ip", $input, $result);

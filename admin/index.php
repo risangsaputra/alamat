@@ -141,6 +141,11 @@
           </a>
         </li>
         <li class="treeview">
+          <a href="?act=monitor">
+            <i class="fa fa-desktop"></i> <span>Traffic</span>
+          </a>
+        </li>
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
             <span>UI Elements</span>
